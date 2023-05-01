@@ -1,0 +1,117 @@
+.about_3no_p
+{
+		font-family: "Poppins", sans-serif;
+		font-size:16px;
+		margin:20px 50px 0px 40px;
+		word-spacing: 4px;
+		color:#777777;
+
+}
+.about_margin_facebook
+{
+	line-height:300px ;
+}
+.about_margin_instagram
+{
+	line-height:300px ;
+	margin-left:35%;
+}
+.about_margin_link
+{
+	line-height:300px ;
+	margin-left:35%;
+}
+.about_fafa
+{
+	margin:20px 0px 0px 30px;
+	color:#777777;
+	font-size:16px;
+}
+.about_3_div
+{
+	height:500px;
+	width:90%;
+	background:green;
+	margin:30px 20px 0px 30px;
+}
+
+.black
+{
+	height:100%;
+	width: 100%;
+	font-size:0px;
+}
+.black:hover
+{
+	background:#00000085;
+	height:100%;
+	width:100%;
+	font-size:17px;
+	color:white;
+}
+.about_div3_1
+{
+	height:170px;
+	width:170px;
+	background-image:url('img/36.jpg');
+	background-position: center;
+	background-size: cover;
+	margin:40px 0px 0px 30px;
+}
+.about_div3_11
+{
+	height:170px;
+	width:170px;
+	background-image:url('img/37.jpg');
+	background-position: center;
+	background-size: cover;
+	margin:40px 0px 0px 30px;
+}
+.about_div3_111
+{
+	height:170px;
+	width:170px;
+	background-image:url('img/38.jpg');
+	background-position: center;
+	background-size: cover;
+	margin:40px 0px 0px 30px;
+}
+.about_div3_1111
+{
+	height:170px;
+	width:170px;
+	background-image:url('img/39.jpg');
+	background-position: center;
+	background-size: cover;
+	margin:40px 0px 0px 30px;
+}
+.about_div3_2
+{
+	height:200px ;
+	width:65%;
+	background:white;
+	margin:20px 0px 0px 10px;
+}
+.about_maindiv
+{
+	height:250px;
+	width:100%;
+	background:white;
+}
+.about_div3_2_p
+{
+	margin:30px 0px 0px 10px;
+	color:black;
+}
+.about_div3_2_p2
+{
+	margin:0px 0px 0px 10px;
+	color:#ed3974;
+}
+
+.about_div3_2_p3
+{
+	margin:0px 0px 0px 10px;
+	color:#777777;
+	margin-top:10px;
+}

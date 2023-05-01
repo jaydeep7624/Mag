@@ -1,0 +1,202 @@
+<html>
+	<head>
+		<title>css- cascading style sheets --css3</title>
+
+
+		<!-- internal css -->
+
+
+		<style>
+			
+/*4 type of selectors*/
+
+/*1 - class selector (.)
+2 - id (#)
+3 - tag (p,h1,h6)
+4 - all,global (*)*/
+
+
+
+
+.box{
+
+	height:100px;
+	width:100px;
+	background:red;
+}
+
+.c{
+	color:green;
+
+}
+.c:hover{
+	color:black;
+	background: red;
+	transition:2s;
+
+}
+.div{
+		height:100%;
+		width:100%;
+		background:orange;
+	}
+.subdiv
+{
+	height:500px;
+	width:50%;
+	background:blue;
+/*	float: left;*/
+}
+
+.fl{
+	float: left;
+}
+.subdiv1
+{
+	height:500px;
+	width:50%;
+	background:green;
+	transition: 2s;
+}
+.subdiv1:hover{
+	background: black;
+	height: 600px;
+	border-radius: 50px 0px 50px 0px;
+	margin-top: 50px;
+	transition: 2s;
+	color: white;
+}
+
+.mybox{
+
+	height: 500px;width: 100%;background: red;
+}
+.img1
+{
+	height:200px;
+	width:200px;
+	transition:5s;
+}
+.img1:hover
+{
+	height:500px;
+	width:500px;
+	transition:2s;
+	transform: rotate(-360deg);
+}
+
+.img2
+{
+	height:200px;
+	width:200px;
+	transition:5s;
+}
+.img2:hover
+{
+	height:500px;
+	width:500px;
+	transition:2s;
+/*	transform: rotate(-360deg);*/
+transform: scale(0.2);
+}
+
+
+#boxmain{
+	height:200px;
+	width:200px;
+	background:black;
+/*	float:left;*/
+}
+
+#id1
+{
+	float:left;
+}
+span{
+	color: red;
+}
+p{
+	color:green;
+	background:blue;
+}
+*
+{
+	font-family: cursive;
+	margin:0px;
+}
+
+		</style>
+	</head>
+	<body>
+
+<!-- 		3 type of css
+
+		1 - inline css (style="")
+		2  - internal css (head tag ni andar style tag use)
+		3 - external css (new page ni andar .css use)
+ -->
+
+ 	<div class="box">
+ 		
+ 	</div>
+
+
+ 	<div class="box">
+ 		
+ 	</div>
+ 	<h1 class="c" style="background:yellow">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 	tempor incididunt ut l abore et dolore magna aliqua. Ut enim ad minim veniam,
+ 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+
+ 	<p class="c">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+ 	<h6 class="c">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+ 	<div class="div">
+ 		<div class="subdiv fl">
+ 			<div class="subdiv1 fl " style="background:yellow">
+ 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 			</div>
+ 			<div class="subdiv1 fl"></div>
+ 		</div>
+ 		<div class="subdiv fl"></div>
+ 		
+ 	</div>
+	<div class="mybox"></div>
+
+	<img src="img/1.jpg" class="img1">
+	<img src="img/2.jpg" class="img2">
+	<div id="boxmain"></div>
+	<div id="boxmain"></div>
+
+	<span>Jaydeep</span>
+	<span>Jaydeep</span>
+	<span>Jaydeep</span>
+	<span>Jaydeep</span>
+	<span class="c">Jaydeep</span>
+
+	<p style="color:red">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</body>
+</html>
